@@ -28,3 +28,5 @@ Finally, I implemented three custom features:
 1. A main() function so that anyone using this code can take advantage of the functionality in a very easy way.
 2. An improved factorization algorithm using a list of the first 100,008 primes to factor keys up to 12 digits long
 3. Pollard's Rho factorization algorithm to factor keys up to 27 digits long within ~1 minute
+
+Note that since each character is encrypted individually, this encryption method is susceptible to known plaintext attack or character frequency analysis attack. I am currently working on code for a character frequency analysis attack against this implementation - stay tuned!
